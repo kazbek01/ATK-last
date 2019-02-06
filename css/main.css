@@ -208,6 +208,10 @@ header .header-top-menu {
 .header-btnbox .btn-plain {
   margin-right: 20px;
 }
+.header-btnbox .fa-glasses, .btnbox-xs .fa-glasses{
+  color: white;
+  font-size: 16px;
+}
 
 .m-menu {
   display: -webkit-box;
@@ -2029,6 +2033,19 @@ form textarea {
   .single-header .navbar-collapse {
     height: auto;
     background-color: white;
+  }
+  .btnbox-xs{
+    float: right;
+    padding-top:  15px;
+  }
+  .search-popup{
+    margin-left: -150px;
+    max-width: 300px;
+    padding: 10px 5px;
+  }
+  .search-popup .search-form input{
+    min-width: auto;
+    padding: 5px;
   }
 }
 
