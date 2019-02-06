@@ -6,6 +6,7 @@
     <title>KazATK</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bvi.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 </head>
@@ -27,7 +28,8 @@
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
                 <div class="header-btnbox">
-                    <button class="btn-plain call-search hidden-xs"><i class="fas fa-search fa-search-custom"></i></button>
+                    <button class="btn-plain call-search  hidden-xs"><i class="fas fa-search fa-search-custom"></i></button>
+                    <button class="btn-plain bvi-panel-open-menu hidden-xs"><i class="fas fa-glasses"></i></button>
                     <button class="btn-white call-callback">Обратная связь</button>
                 </div>
 
@@ -43,6 +45,10 @@
                         <img src="img/logo/kazatwhite-last.png" alt="" class="logo-main">
                         <img src="img/logo/kaztemirjol.png" alt="" class="logo-temirjol">
                     </a>
+                    <div class="btnbox-xs visible-xs">
+                        <button class="btn-plain call-search "><i class="fas fa-search fa-search-custom"></i></button>
+                        <button class="btn-plain bvi-panel-open-menu"><i class="fas fa-glasses"></i></button>
+                    </div>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav m-menu">
@@ -511,6 +517,12 @@
 
 </section>
 <div class="overlay"></div>
+<div class="search-popup">
+    <form action="#" class="search-form" method="post">
+        <input type="text" placeholder="Поиск...">
+        <button class="btn-blue" type="submit">Поиск</button>
+    </form>
+</div>
 <div class="callback">
     <h3>Введите ваш номер</h3>
     <form action="#" class="callback-form" method="post">
@@ -579,6 +591,10 @@
     </div>
 </footer>
 <script src="js/libs.min.js"></script>
+<script src="js/responsivevoice.min.js"></script>
+<script src="js/bvi-init-panel.min.js"></script>
+<script src="js/bvi.min.js"></script>
+<script src="js/js.cookie.min.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>

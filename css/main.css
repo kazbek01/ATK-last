@@ -2047,6 +2047,9 @@ form textarea {
     min-width: auto;
     padding: 5px;
   }
+  .bg-shadow .btnbox-xs i{
+    color: black;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
